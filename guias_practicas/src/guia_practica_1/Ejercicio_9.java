@@ -40,7 +40,7 @@ public class Ejercicio_9 {
     };
 
     public static double getGuarani(double quantity){
-        double guaraniChangeRate = 0.032258;
+        double guaraniChangeRate = (double)1 / 31;
 
         double change = quantity / guaraniChangeRate ;
         return change;
